@@ -1,5 +1,6 @@
 # vim-config
 vim配置
+https://github.com/LiuFeiChen/vim-go-ide.git
 https://github.com/broqiang/vim-go-ide.git  #这是fork的vim针对go环境配置的项目，在根据步骤做的过程中出现一些问题，现在针对出现的问题做对应的处理
 https://github.com/LiuFeiChen/vim-go-ide.git
 
