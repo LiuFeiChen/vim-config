@@ -1,6 +1,6 @@
 # vim-config
 vim配置
-https://github.com/LiuFeiChen/vim-go-ide   #这是fork的vim针对go环境配置的项目，在根据步骤做的过程中出现一些问题，现在针对出现的问题做对应的处理
+https://github.com/broqiang/vim-go-ide.git  #这是fork的vim针对go环境配置的项目，在根据步骤做的过程中出现一些问题，现在针对出现的问题做对应的处理
 https://github.com/LiuFeiChen/vim-go-ide.git
 
 1.教程使用的系统时ubuntu18但是我使用的是centos7，但是vimrc不使用教程里的那个针对centos的，就使用里面那个vimrc文件
