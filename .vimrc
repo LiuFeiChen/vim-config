@@ -150,6 +150,9 @@ Plug 'scrooloose/nerdcommenter'
 
 " python相关插件
 
+" vue插件
+Plug 'leafoftree/vim-vue-plugin'
+
 " 插件结束的位置，插件全部放在此行上面
 call plug#end()
 
