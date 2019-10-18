@@ -28,6 +28,9 @@ set backspace=2
 " 关闭兼容模式
 set nocompatible
 
+"高亮查找的关键字
+set hlsearch
+
 set number " 设置绝对行号
 "set relativenumber " 设置相对行号
 "set cursorline "突出显示当前行
