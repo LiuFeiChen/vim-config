@@ -13,6 +13,7 @@ endw
 
 set timeout ttimeoutlen=50
 
+au BufReadPost * if line("'\"") > 0|if line("'\"") <= line("$")|exe("norm '\"")|else|exe "norm $"|endif|endif
 
 "==============================================================================
 " vim 内置配置 
