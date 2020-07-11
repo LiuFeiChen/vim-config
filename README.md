@@ -20,3 +20,11 @@ https://github.com/LiuFeiChen/vim-go-ide.git
    如果不进行配置直接编译的话后面打开vim的会报YouCompleteMe unavailable: requires Vim compiled with Python 2.x support等相关错误，
   ./configure --prefix=/usr --enable-multibyte --enable-pythoninterp=yes  --enable-python3interp=yes --enable-multibyte    #这样配置后就可以了
   make ; make install
+
+
+4.自动提示功能支持
+```
+在.vimrc的插件配置中加入下面的2行配置，然后打开vim执行:PlugInstall, 安装成功后使用<C-x><C-o>即可出现代码提示，github：https://github.com/nsf/gocode
+" go 自动提示
+Plug 'nsf/gocode', {'rtp': 'vim/'}
+```
