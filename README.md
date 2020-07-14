@@ -27,4 +27,6 @@ https://github.com/LiuFeiChen/vim-go-ide.git
 在.vimrc的插件配置中加入下面的2行配置，然后打开vim执行:PlugInstall, 安装成功后使用<C-x><C-o>即可出现代码提示，github：https://github.com/nsf/gocode
 " go 自动提示
 Plug 'nsf/gocode', {'rtp': 'vim/'}
+
+python代码提示https://github.com/davidhalter/jedi-vim
 ```
