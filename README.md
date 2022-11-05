@@ -20,3 +20,18 @@ python3 install.py  --clang-completer --go-completer --ts-completer
 可能因为网络的问题无法下载，需要自己修改脚本，自己下载
 
 ```
+
+## ycm自动补全
+
+自定义配置参考： https://github.com/LiuFeiChen/dotfiles
+
+1.全局配置： 通过配置let g:ycm_global_ycm_extra_conf='~/.vim/.ycm_extra_conf.py'来指定自己的补全配置，这是全局的配置
+`https://github.com/LiuFeiChen/dotfiles/blob/master/YouCompleteMe/ycm_extra_conf.py`
+
+2.C语言项目配置,将下面的链接的文件拷贝至工程的顶层目录，并重命名为： .ycm_extra_conf.py
+`https://github.com/LiuFeiChen/dotfiles/blob/master/YouCompleteMe/ycm_extra_conf.py`
+
+3.C++语言项目配置,将下面的链接的文件拷贝至工程的顶层目录，并重命名为： .ycm_extra_conf.py
+`https://github.com/LiuFeiChen/dotfiles/blob/master/YouCompleteMe/ycm_cpp_conf.py`
+
+
