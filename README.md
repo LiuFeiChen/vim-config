@@ -34,4 +34,6 @@ python3 install.py  --clang-completer --go-completer --ts-completer
 3.C++语言项目配置,将下面的链接的文件拷贝至工程的顶层目录，并重命名为： .ycm_extra_conf.py
 `https://github.com/LiuFeiChen/dotfiles/blob/master/YouCompleteMe/ycm_cpp_conf.py`
 
+4.python和go无需配置已经支持补全了
+
 
