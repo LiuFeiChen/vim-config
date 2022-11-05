@@ -306,9 +306,15 @@ let g:ycm_min_num_of_chars_for_completion=1        " 从第一个键入字符就
 let g:ycm_cache_omnifunc=0                         " 禁止缓存匹配项，每次都重新生成匹配项
 let g:ycm_seed_identifiers_with_syntax=1           " 语法关键字补全
 let g:ycm_goto_buffer_command = 'horizontal-split' " 跳转打开上下分屏
-map <F1> :YcmCompleter GoToDefinition<CR>
-map <F2> :YcmCompleter GoToDeclaration<CR>
-map <F4> :YcmCompleter GoToDefinitionElseDeclaration<CR>
+set completeopt=longest,menu    "让Vim的补全菜单行为与一般IDE一致(参考VimTip1228)
+nnoremap <leader>gj :YcmCompleter GoToDeclaration<CR> "跳转到声明
+nnoremap <leader>gf :YcmCompleter GoToDefinition<CR>  "跳转到定义
+nnoremap <leader>gg :YcmCompleter GoToDefinitionElseDeclaration<CR>  "声明和定义的合体
+"使用 ctrl-o 和 ctrl-i 跳转到以前访问过的位置
+nmap <F4> :YcmDiags<CR> "看看有没有什么warn或error
+"map <F1> :YcmCompleter GoToDefinition<CR>
+"map <F2> :YcmCompleter GoToDeclaration<CR>
+"map <F4> :YcmCompleter GoToDefinitionElseDeclaration<CR>
 "补全预览高亮
 highlight Pmenu ctermfg=2 ctermbg=3 guifg=#ffffff guibg=#0000ff
 "
