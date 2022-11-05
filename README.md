@@ -9,7 +9,7 @@
 主要还是ycm的依赖，
 `https://github.com/ycm-core/YouCompleteMe#requirements`
 
-##安装
+## 安装
 除了ycm需要重新编译，plugged下面的插件都可以直接使用
 `cd /root/.vim/plugged`
 ![1667652687733](https://user-images.githubusercontent.com/17865744/200120762-fc5deece-2731-4753-92c8-2ddcb8f7c7de.png)
