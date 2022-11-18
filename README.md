@@ -2,7 +2,8 @@
 
 ## 说明
 因plugged目录压缩包大于100MB，所以被存放在百度网盘了
-`链接: https://pan.baidu.com/s/1LoKzr1pEySBWAlwxmqsydw 提取码: v5pg 复制这段内容后打开百度网盘手机App，操作更方便哦`
+`链接：https://pan.baidu.com/s/1B-0S0v-laPqj-j9dK-Z7Yg 
+提取码：lk90`
 下载plugged.tar.gz至.vim目录下解压即可
 
 ## 依赖
